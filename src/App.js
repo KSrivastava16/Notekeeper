@@ -11,6 +11,7 @@ import Home from "./Home";
 import PrivateRoute from "./components/PrivateRoute";
 
 function App() {
+  //very good
   return (
     <BrowserRouter>
       <div className="App">

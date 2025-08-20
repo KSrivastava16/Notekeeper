@@ -8,8 +8,15 @@ function Home({ currentUser }) {
     <div>
       <div className="notekeeper-main ">
         <h1 className="mb-3">
-          <i class="fas fa-clipboard"></i> Welcome to Notekeeper App
+          <span className="notes-icon">
+            <i class="fas fa-clipboard"></i>
+          </span>
+          <span className="heading">Welcome to Notekeeper Application</span>
         </h1>
+        <p className="description">
+          NoteKeeper Application enable user to make their personal customized
+          notes based on their needs
+        </p>
       </div>
       {!currentUser ? (
         <NavLink to="/Login" className="button btn-primary mt-2 ">
